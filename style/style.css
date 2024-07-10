@@ -132,7 +132,7 @@ flex-direction: row;
 justify-content: flex-start;
 align-items:flex-start;
 padding: 0px;
-margin: 0 32px;
+margin: 0 20px ;
 gap: 100px;
 }
 .content{
@@ -286,4 +286,132 @@ border-radius: 16px;
     border: none;
     background-color:transparent;
     text-decoration: underline;
+}
+/* my next target section */
+.my-next-taarget{
+    width: 1140px;
+    height: 866px;
+    margin-top: 111px;
+    padding: 0;
+    margin-left: 150px;
+    /* border: 2px solid red; */
+}
+/* /* .my-target-section{ */
+/* .my-next-target-section{
+    width: 1140px;
+    height: 460px;
+    padding: 0px;
+    margin-top: 111px;
+    margin-left: 144px;
+    text-align: center;
+    
+}
+.my-next-target-title{
+    font-size: 32px;
+    text-align: center;
+    margin: 2px 0px;
+    padding: 0px;
+}
+.my-next-target-desc{
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 24px 0px;
+}
+.target-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-left: 150px;
+    align-items: center;
+    margin: 32px 0px;
+    padding: 0;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+} */
+.contents{
+    width: auto;
+    height: auto;
+    margin: 50px 0;
+
+}
+.content-desc{
+    display: flex;
+    justify-content: center;
+}
+.targets-list{
+   
+
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+    padding: 0;
+}
+.button{
+
+    text-decoration: none;
+}
+
+.last-section{
+    background-image: url(/assets/handshake.jpg);
+    background-position: center;
+    width: 1140px;
+    height: 314px;
+    display: flex;
+    justify-content: center;
+    margin: 80px 150px;
+    border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+.last-section-header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.last-section-header h2{
+    font-size: 32px;
+    margin-left: 200px;
+    
+}
+.decs{
+    margin-left: 100px;
+}
+.input{
+    padding: 19px 20px 19px 20px;
+    margin: 20px;
+    width: 500px;
+    height: 15px;
+    font-size: 10px;
+    margin-right: 190px;
+}
+.submit-btn{
+    width: 120px;
+    height: 50px;
+    margin: 27px 10px;
+    margin-right: 5px;
+    gap: 16px;
+}
+
+.input-sec{
+display: flex;
+justify-content: center;
+gap: -200px;
+}
+.footer{
+    width: 1440px;
+height: 100px;
+padding: 32px 150px 32px 150px;
+}
+.footer-icon{
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+padding: 0px;
+margin: 0 400px;
 }
